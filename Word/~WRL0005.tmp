@@ -763,425 +763,165 @@ div.WordSection1
 
 <div class=WordSection1>
 
-<p class=MsoNormal style='line-height:14.25pt;background:#1E1E1E'><span
-style='font-size:10.5pt;font-family:Consolas;color:#C586C0'><span
-style='mso-tab-count:1'>      </span></span><span style='font-size:10.5pt;
-font-family:Consolas;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-"Times New Roman";color:#D4D4D4'><o:p></o:p></span></p>
+<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
+#1E1E1E'><span style='font-size:10.5pt;font-family:Consolas;color:#C586C0'>&nbsp;</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span lang=ES-CO style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#C586C0;mso-ansi-language:ES-CO'>import</span><span lang=ES-CO
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4;mso-ansi-language:ES-CO'>
-pyautogui<o:p></o:p></span></p>
+#1E1E1E'><span style='font-size:10.5pt;font-family:Consolas;color:#C586C0'>import</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'> </span><span
+class=SpellE><span style='font-size:10.5pt;font-family:Consolas;color:#4EC9B0'>os</span></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
+#1E1E1E'><span style='font-size:10.5pt;font-family:Consolas;color:#C586C0'>import</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'> <span
+class=SpellE>numpy</span> </span><span style='font-size:10.5pt;font-family:
+Consolas;color:#C586C0'>as</span><span style='font-size:10.5pt;font-family:
+Consolas;color:#D4D4D4'> </span><span style='font-size:10.5pt;font-family:Consolas;
+color:#4EC9B0'>np</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
+#1E1E1E'><span class=SpellE><span lang=ES-CO style='font-size:10.5pt;
+font-family:Consolas;color:#C586C0;mso-ansi-language:ES-CO'>import</span></span><span
+lang=ES-CO style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4;
+mso-ansi-language:ES-CO'> cv2</span><span lang=ES-CO style='mso-ansi-language:
+ES-CO'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
+#1E1E1E'><span lang=ES-CO style='mso-ansi-language:ES-CO'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt;line-height:14.25pt;background:
 #1E1E1E'><span lang=ES-CO style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#C586C0;mso-ansi-language:ES-CO'>import</span><span lang=ES-CO
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4;mso-ansi-language:ES-CO'> </span><span
-lang=ES-CO style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#4EC9B0;
+color:#D4D4D4;mso-ansi-language:ES-CO'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt;line-height:14.25pt;background:
+#1E1E1E'><span class=SpellE><span lang=ES-CO style='font-size:10.5pt;
+font-family:Consolas;color:#DCDCAA;mso-ansi-language:ES-CO'>print</span></span><span
+lang=ES-CO style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4;
+mso-ansi-language:ES-CO'>(</span><span lang=ES-CO style='font-size:10.5pt;
+font-family:Consolas;color:#9CDCFE;mso-ansi-language:ES-CO'>img0</span><span
+lang=ES-CO style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4;
+mso-ansi-language:ES-CO'>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt;line-height:14.25pt;background:
+#1E1E1E'><span lang=ES-CO style='font-size:10.5pt;font-family:Consolas;
+color:#D4D4D4;mso-ansi-language:ES-CO'>&nbsp;</span><span lang=ES-CO
+style='mso-ansi-language:ES-CO'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
+#1E1E1E'><span class=SpellE><span lang=ES-CO style='font-size:10.5pt;
+font-family:Consolas;color:#DCDCAA;mso-ansi-language:ES-CO'>print</span></span><span
+lang=ES-CO style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4;
+mso-ansi-language:ES-CO'>(</span><span class=SpellE><span class=GramE><span
+lang=ES-CO style='font-size:10.5pt;font-family:Consolas;color:#4EC9B0;
 mso-ansi-language:ES-CO'>os</span><span lang=ES-CO style='font-size:10.5pt;
-font-family:Consolas;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-"Times New Roman";color:#D4D4D4;mso-ansi-language:ES-CO'><o:p></o:p></span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span lang=ES-CO style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#C586C0;mso-ansi-language:ES-CO'>import</span><span lang=ES-CO
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4;mso-ansi-language:ES-CO'>
-numpy </span><span lang=ES-CO style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#C586C0;mso-ansi-language:ES-CO'>as</span><span lang=ES-CO
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4;mso-ansi-language:ES-CO'> </span><span
-lang=ES-CO style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#4EC9B0;
-mso-ansi-language:ES-CO'>np</span><span lang=ES-CO style='font-size:10.5pt;
-font-family:Consolas;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-"Times New Roman";color:#D4D4D4;mso-ansi-language:ES-CO'><o:p></o:p></span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span lang=ES-CO style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#C586C0;mso-ansi-language:ES-CO'>import</span><span lang=ES-CO
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4;mso-ansi-language:ES-CO'>
-cv2<o:p></o:p></span></p>
+font-family:Consolas;color:#D4D4D4;mso-ansi-language:ES-CO'>.</span><span
+lang=ES-CO style='font-size:10.5pt;font-family:Consolas;color:#DCDCAA;
+mso-ansi-language:ES-CO'>getcwd</span></span></span><span lang=ES-CO
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4;mso-ansi-language:
+ES-CO'>())</span><span lang=ES-CO style='mso-ansi-language:ES-CO'><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:12.0pt;line-height:14.25pt;background:
 #1E1E1E'><span lang=ES-CO style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#D4D4D4;mso-ansi-language:ES-CO'><o:p>&nbsp;</o:p></span></p>
+color:#D4D4D4;mso-ansi-language:ES-CO'>&nbsp;</span><span lang=ES-CO
+style='mso-ansi-language:ES-CO'><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
 #1E1E1E'><span lang=ES-CO style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#6A9955;mso-ansi-language:ES-CO'>#Estas son las imaganes que vamos a
-procesar</span><span lang=ES-CO style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#D4D4D4;mso-ansi-language:ES-CO'><o:p></o:p></span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span lang=ES-CO style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#D4D4D4;mso-ansi-language:ES-CO'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span lang=ES-CO style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#9CDCFE;mso-ansi-language:ES-CO'>img0</span><span lang=ES-CO
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4;mso-ansi-language:ES-CO'>
-= </span><span lang=ES-CO style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#4EC9B0;mso-ansi-language:ES-CO'>cv2</span><span lang=ES-CO
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4;mso-ansi-language:ES-CO'>.imread(</span><span
-lang=ES-CO style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#CE9178;
-mso-ansi-language:ES-CO'>'6.jpg'</span><span lang=ES-CO style='font-size:10.5pt;
-font-family:Consolas;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-"Times New Roman";color:#D4D4D4;mso-ansi-language:ES-CO'>, </span><span
-lang=ES-CO style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#B5CEA8;
-mso-ansi-language:ES-CO'>1</span><span lang=ES-CO style='font-size:10.5pt;
-font-family:Consolas;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-"Times New Roman";color:#D4D4D4;mso-ansi-language:ES-CO'>)<o:p></o:p></span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#9CDCFE'>img1</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'> = </span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#4EC9B0'>cv2</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'>.imread(</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#CE9178'>'1.0.jpg'</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'>,</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#B5CEA8'>1</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'>)<o:p></o:p></span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#9CDCFE'>img2</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'> = </span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#4EC9B0'>cv2</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'>.imread(</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#CE9178'>'2.jpg'</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'>,</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#B5CEA8'>1</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'>)<o:p></o:p></span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#D4D4D4'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span lang=ES-CO style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#6A9955;mso-ansi-language:ES-CO'>#Estos son los puntos de coordenada de
-la imaginen a comparar.</span><span lang=ES-CO style='font-size:10.5pt;
-font-family:Consolas;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-"Times New Roman";color:#D4D4D4;mso-ansi-language:ES-CO'><o:p></o:p></span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span lang=ES-CO style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#DCDCAA;mso-ansi-language:ES-CO'>print</span><span lang=ES-CO
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4;mso-ansi-language:ES-CO'>(</span><span
-lang=ES-CO style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#9CDCFE;
-mso-ansi-language:ES-CO'>img0</span><span lang=ES-CO style='font-size:10.5pt;
-font-family:Consolas;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-"Times New Roman";color:#D4D4D4;mso-ansi-language:ES-CO'>)<o:p></o:p></span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span lang=ES-CO style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#D4D4D4;mso-ansi-language:ES-CO'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span lang=ES-CO style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#6A9955;mso-ansi-language:ES-CO'>#longitud de las columnas </span><span
-lang=ES-CO style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#D4D4D4;
-mso-ansi-language:ES-CO'><o:p></o:p></span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span lang=ES-CO style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#DCDCAA;mso-ansi-language:ES-CO'>print</span><span lang=ES-CO
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4;mso-ansi-language:ES-CO'>(</span><span
-lang=ES-CO style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#DCDCAA;
-mso-ansi-language:ES-CO'>len</span><span lang=ES-CO style='font-size:10.5pt;
-font-family:Consolas;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-"Times New Roman";color:#D4D4D4;mso-ansi-language:ES-CO'>(</span><span
-lang=ES-CO style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#9CDCFE;
-mso-ansi-language:ES-CO'>img0</span><span lang=ES-CO style='font-size:10.5pt;
-font-family:Consolas;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-"Times New Roman";color:#D4D4D4;mso-ansi-language:ES-CO'>[</span><span
-lang=ES-CO style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#B5CEA8;
-mso-ansi-language:ES-CO'>0</span><span lang=ES-CO style='font-size:10.5pt;
-font-family:Consolas;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-"Times New Roman";color:#D4D4D4;mso-ansi-language:ES-CO'>]))<o:p></o:p></span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span lang=ES-CO style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#D4D4D4;mso-ansi-language:ES-CO'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span lang=ES-CO style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#6A9955;mso-ansi-language:ES-CO'>#Es el directorio donde esta el script
-en el que estamos trabajando.</span><span lang=ES-CO style='font-size:10.5pt;
-font-family:Consolas;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-"Times New Roman";color:#D4D4D4;mso-ansi-language:ES-CO'><o:p></o:p></span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#DCDCAA'>print</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'>(</span><span
-class=SpellE><span class=GramE><span style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#4EC9B0'>os</span><span style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#D4D4D4'>.</span><span style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#DCDCAA'>getcwd</span></span></span><span style='font-size:10.5pt;
-font-family:Consolas;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-"Times New Roman";color:#D4D4D4'>())<o:p></o:p></span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#D4D4D4'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span class=GramE><span style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#DCDCAA'>print</span><span style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#D4D4D4'>(</span></span><span style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#CE9178'>&quot;Generate more code&quot;</span><span style='font-size:
-10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'>)<o:p></o:p></span></p>
-
-<p class=MsoNormal style='margin-bottom:12.0pt;line-height:14.25pt;background:
-#1E1E1E'><span style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#D4D4D4'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span lang=ES-CO style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
 color:#6A9955;mso-ansi-language:ES-CO'>#Sacame la data de que como hicimos
-esto.</span><span lang=ES-CO style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#D4D4D4;mso-ansi-language:ES-CO'><o:p></o:p></span></p>
+esto.</span><span lang=ES-CO style='mso-ansi-language:ES-CO'><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#C586C0'>for</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'> </span><span
-class=SpellE><span style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#9CDCFE'>i</span></span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'> </span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#C586C0'>in</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'> </span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#4EC9B0'>range</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'>(</span><span
-class=SpellE><span style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#DCDCAA'>len</span></span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'>(</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#9CDCFE'>img0</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'>)):<o:p></o:p></span></p>
+#1E1E1E'><span style='font-size:10.5pt;font-family:Consolas;color:#C586C0'>for</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'> </span><span
+class=SpellE><span style='font-size:10.5pt;font-family:Consolas;color:#9CDCFE'>i</span></span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'> </span><span
+style='font-size:10.5pt;font-family:Consolas;color:#C586C0'>in</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'> </span><span
+style='font-size:10.5pt;font-family:Consolas;color:#4EC9B0'>range</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'>(</span><span
+class=SpellE><span style='font-size:10.5pt;font-family:Consolas;color:#DCDCAA'>len</span></span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'>(</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#9CDCFE'>img0</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'>)):</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#D4D4D4'>&nbsp;
-&nbsp; </span><span style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#C586C0'>for</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'> </span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#9CDCFE'>j</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'> </span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#C586C0'>in</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'> </span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#4EC9B0'>range</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'>(</span><span
-class=SpellE><span style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#DCDCAA'>len</span></span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'>(</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#9CDCFE'>img0</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'>[</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#B5CEA8'>0</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'>])):<o:p></o:p></span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#D4D4D4'>&nbsp;
+#1E1E1E'><span style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'>&nbsp;
 &nbsp; &nbsp; &nbsp; </span><span style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
 color:#9CDCFE'>img0</span><span style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
 color:#D4D4D4'>[</span><span class=SpellE><span class=GramE><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#9CDCFE'>i</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'>,</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#9CDCFE'>j</span></span></span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'>]<o:p></o:p></span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#D4D4D4'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#DCDCAA'>print</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'>(</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#CE9178'>'here'</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'>)<o:p></o:p></span></p>
+style='font-size:10.5pt;font-family:Consolas;color:#9CDCFE'>i</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'>,</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#9CDCFE'>j</span></span></span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'>]</span></p>
 
 <p class=MsoNormal style='margin-bottom:12.0pt;line-height:14.25pt;background:
-#1E1E1E'><span style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#D4D4D4'><o:p>&nbsp;</o:p></span></p>
+#1E1E1E'><o:p>&nbsp;</o:p></p>
 
 <p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span lang=ES-CO style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#6A9955;mso-ansi-language:ES-CO'>#Pruebo que la biblioteca funcione</span><span
-lang=ES-CO style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#D4D4D4;
-mso-ansi-language:ES-CO'><o:p></o:p></span></p>
+#1E1E1E'><span style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'>&nbsp;</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span lang=ES-CO style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#9CDCFE;mso-ansi-language:ES-CO'>screenHeight</span><span lang=ES-CO
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4;mso-ansi-language:ES-CO'>
-= </span><span lang=ES-CO style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#4EC9B0;mso-ansi-language:ES-CO'>pyautogui</span><span lang=ES-CO
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4;mso-ansi-language:ES-CO'>.size()
-<o:p></o:p></span></p>
+#1E1E1E'><span style='font-size:10.5pt;font-family:Consolas;color:#DCDCAA'>print</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'>(</span><span
+class=SpellE><span style='font-size:10.5pt;font-family:Consolas;color:#DCDCAA'>len</span></span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'>(</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#9CDCFE'>img0</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'>[</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#B5CEA8'>0</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'>]))</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#DCDCAA'>print</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'>(</span><span
-class=SpellE><span style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#9CDCFE'>screenHeight</span></span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'>)<o:p></o:p></span></p>
+#1E1E1E'><span style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'>&nbsp;
+&nbsp; </span><span style='font-size:10.5pt;font-family:Consolas;color:#C586C0'>for</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'> </span><span
+style='font-size:10.5pt;font-family:Consolas;color:#9CDCFE'>j</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'> </span><span
+style='font-size:10.5pt;font-family:Consolas;color:#C586C0'>in</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'> </span><span
+style='font-size:10.5pt;font-family:Consolas;color:#4EC9B0'>range</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'>(</span><span
+class=SpellE><span style='font-size:10.5pt;font-family:Consolas;color:#DCDCAA'>len</span></span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'>(</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#9CDCFE'>img0</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'>[</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#B5CEA8'>0</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'>])):</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span class=SpellE><span style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#9CDCFE'>currentMouseY</span></span><span style='font-size:10.5pt;
-font-family:Consolas;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-"Times New Roman";color:#D4D4D4'> = </span><span class=SpellE><span
-class=GramE><span style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#4EC9B0'>pyautogui</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'>.position</span></span></span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'>()<o:p></o:p></span></p>
+#1E1E1E'><span style='font-size:10.5pt;font-family:Consolas;color:#9CDCFE'>img1</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'> = </span><span
+style='font-size:10.5pt;font-family:Consolas;color:#4EC9B0'>cv2</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'>.imread(</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#CE9178'>'1.0.jpg'</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'>,</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#B5CEA8'>1</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'>)</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#DCDCAA'>print</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'>(</span><span
-class=SpellE><span style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#9CDCFE'>currentMouseY</span></span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'>)<o:p></o:p></span></p>
+#1E1E1E'><span style='font-size:10.5pt;font-family:Consolas;color:#9CDCFE'>img2</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'> = </span><span
+style='font-size:10.5pt;font-family:Consolas;color:#4EC9B0'>cv2</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'>.imread(</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#CE9178'>'2.jpg'</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'>,</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#B5CEA8'>1</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'>)</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#D4D4D4'><o:p>&nbsp;</o:p></span></p>
+#1E1E1E'><span style='font-size:10.5pt;font-family:Consolas;color:#9CDCFE'>img0</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'> = </span><span
+style='font-size:10.5pt;font-family:Consolas;color:#4EC9B0'>cv2</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'>.imread(</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#CE9178'>'6.jpg'</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'>, </span><span
+style='font-size:10.5pt;font-family:Consolas;color:#B5CEA8'>1</span><span
+style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'>)</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#6A9955'>#Tomo <span
-class=SpellE>el</span> screenshot</span><span style='font-size:10.5pt;
-font-family:Consolas;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-"Times New Roman";color:#D4D4D4'><o:p></o:p></span></p>
+#1E1E1E'><span style='font-size:10.5pt;font-family:Consolas;color:#D4D4D4'>&nbsp;</span></p>
 
-<p class=MsoNormal style='margin-bottom:0in;line-height:14.25pt;background:
-#1E1E1E'><span class=SpellE><span style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#9CDCFE'>im</span></span><span style='font-size:10.5pt;font-family:Consolas;
-mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:#D4D4D4'> = </span><span class=SpellE><span class=GramE><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#4EC9B0'>pyautogui</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'>.screenshot</span></span></span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'>(</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#CE9178'>'my_screenshot.png'</span><span
-style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#D4D4D4'>)<o:p></o:p></span></p>
-
-<p class=MsoNormal style='margin-bottom:12.0pt;line-height:14.25pt;background:
-#1E1E1E'><span style='font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#D4D4D4'><o:p>&nbsp;</o:p></span></p>
+<p class=MsoNormal>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 

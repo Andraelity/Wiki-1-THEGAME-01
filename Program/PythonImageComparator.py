@@ -39,8 +39,12 @@
 #Yo puedo validar si el comando de git se ejecuto de manera correcta.
 #Lo siguiente seria que.
 #
+ 
+#import pyscreenshot
 
+  
 
+import pyautogui
 import os
 import numpy as np
 import cv2
@@ -61,7 +65,7 @@ print(len(img0[0]))
 #Es el directorio donde esta el script en el que estamos trabajando.
 print(os.getcwd())
 
-
+print("Generate more code")
 
 
 #Sacame la data de que como hicimos esto.
@@ -69,14 +73,36 @@ for i in range(len(img0)):
     for j in range(len(img0[0])):
         img0[i,j]
 
+print('here')
+
+
+#Pruebo que la biblioteca funcione
+screenHeight = pyautogui.size() 
+print(screenHeight)
+currentMouseY = pyautogui.position()
+print(currentMouseY)
+
+#Tomo el screenshot
+im = pyautogui.screenshot('my_screenshot.png')
+
+
+# since the pyautogui takes as a 
+# PIL(pillow) and in RGB we need to 
+# convert it to numpy array and BGR 
+# so we can write it to the disk
 
 
 
-
-
-
-
-
+""" 
+# To capture the screen
+image = pyscreenshot.grab()
+  
+# To display the captured screenshot
+image.show()
+  
+# To save the screenshot
+image.save("GeeksforGeeks.png")
+ """
 
 
 
