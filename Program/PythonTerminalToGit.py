@@ -48,7 +48,60 @@
 
 import os
 
-def solution():
+def solution(stringIn):
+
+    booleanoGo_1 = True
+    while(booleanoGo_1):
+            #Que vamos a hacer?
+            #que vamos a emprender
+            #
+            #
+            #
+        if(booleanoGo_1 == True):
+            print('do yo want to ask to execute system commands from python running script')
+            print('1 to write link:')
+            print('0 to exit():')
+            booleanoGo_2 = True
+            booleanoData = False
+            while(booleanoGo_2):
+                try:
+                    entrada = int(stringIn)
+                    if(entrada == 1):
+                        booleanoData = True
+                        booleanoGo_2 = False
+                    elif(entrada == 0):
+                        booleanoGo_2 = False
+                        booleanoGo_1 = False
+                except:
+                    print('except booleanoGo_2')
+
+
+
+            if(booleanoData == True):
+
+                booleanoGo_3 = True
+
+                while(booleanoGo_3):
+                    try:
+                        print('Write CMD COMMAND')
+                        stringIn_1 = input()
+                        os.system(stringIn_1)
+                        booleanoGo_3 = False
+                        
+                    except:
+                        print("except booleanoGo_3")
+                    #A donde me mandas
+                    #al siguiente concepto
+                    #
+                    #
+                    #
+                                
+    return 0
+
+
+
+
+def solution(stringIn):
 
     booleanoGo_1 = True
     while(booleanoGo_1):
@@ -64,7 +117,7 @@ def solution():
             booleanoGo_2 = True
             while(booleanoGo_2):
                 try:
-                    entrada = int(input())
+                    entrada = int(stringIn)
                     if(entrada == 1):
                         booleanoGo_2 = False
                     if(entrada == 0):
@@ -127,6 +180,7 @@ os.chdir('D:\WRITINGS\Writing-with-code\\')
 #Me ejecutas aplicaciones en carpetas.
 #Con tal de tirar aplicaciones 
 #Ese es el ritmo
+#Como yo le puedo hacer para solucionar todas estas caracteristicas que me hacen mas glorioso
 #Este comando me entrega el directorio en el que estoy trabajando
 pathDirectory = os.getcwd()
 print(pathDirectory)
@@ -188,7 +242,7 @@ while(booleanoGo):
         #que tipo de proceso yo quiero sintetizar.
         #que clase de contenido yo quieor promover.
         k = open('version.txt', 'w+')
-        logString = os.system('git log -n 1')
+        solution(str(1))
         
 
 
